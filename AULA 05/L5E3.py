@@ -32,3 +32,5 @@ while op != 0:
         pass
     else:
         print('\nOPÇÃO INVALIDA. TENTE NOVAMENTE.\n')
+
+print ('OBRIGADO POR CHEGAR ATÉ AQUI')
