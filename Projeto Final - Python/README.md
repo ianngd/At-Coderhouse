@@ -1,17 +1,17 @@
-# Projeto Final - Pipeline ETL com IBGE e CPTEC
+# Projeto Final - Pipeline ETL com API Brasil(IBGE e CPTEC)
 
 ## Descrição
 
-Este projeto é uma implementação de um pipeline ETL (Extração, Transformação e Carga) usando APIs do IBGE e CPTEC. O objetivo do projeto é extrair dados de estados e municípios brasileiros da API do IBGE, e dados meteorológicos da API do CPTEC, transformar esses dados conforme necessário e carregá-los em um banco de dados SQLite para posterior consulta. Além disso, o projeto inclui um sistema de alerta para notificar falhas no processo de extração.
+Este projeto é uma implementação de um pipeline ETL (Extração, Transformação e Carga) usando as APIS Brasil, do IBGE e CPTEC. O objetivo do projeto é extrair dados de estados e municípios brasileiros da API do IBGE, e dados meteorológicos da API do CPTEC, transformar esses dados conforme necessário e carregá-los em um banco de dados SQLite para posterior consulta. Além disso, o projeto inclui um sistema de alerta para notificar falhas no processo de extração.
 
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
 
-projeto_final_etl_ibge_cptec/
+At-Coderhouse/
 │
-├── notebooks/
-│ ├── etl_pipeline.ipynb
+├── Projeto%20Final%20-%20Python/
+│ ├── entrega_de_0607.ipynb
 │
 ├── venv/ # Ambiente virtual para gerenciamento de dependências
 │ ├── Include/
@@ -62,10 +62,12 @@ Para executar o pipeline ETL, abra e execute todas as células do notebook `note
 2. Importação das bibliotecas
 3. Definição da função de alerta
 4. Definição da função para extrair dados da API
-5. Definição da função para carregar dados no banco de dados
-6. Solicitação da sigla do estado pelo usuário
-7. Execução da extração, transformação e carga dos dados
-8. Visualização dos dados extraídos
+5. Definição da função para extrair dados da API
+6. Relacionando tabelas
+7. Definição da função para carregar dados no banco de dados
+8. Chamada de função para carregamento no DB
+9. Execução da extração, transformação e carga dos dados
+10. Visualização dos dados extraídos
 
 ## Exemplo de Saída
 
