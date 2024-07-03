@@ -8,20 +8,14 @@ Este projeto é uma implementação de um pipeline ETL (Extração, Transformaç
 
 O projeto está organizado da seguinte forma:
 
-At-Coderhouse/
-│
-├── Projeto%20Final%20-%20Python/
-│ ├── entrega_de_0607.ipynb
-│
-├── venv/ # Ambiente virtual para gerenciamento de dependências
-│ ├── Include/
-│ ├── Lib/
-│ ├── Scripts/
-│ ├── pyvenv.cfg
-│
-├── dados_ibge_cptec.db
-├── README.md
-├── requirements.txt
+At-Coderhouse/</br>
+│ </br>
+├── Projeto%20Final%20-%20Python/ </br>
+│ ├── entrega_de_0607.ipynb </br>
+│</br>
+├── dados_ibge_cptec.db </br>
+├── README.md </br>
+├── requirements.txt </br>
 
 
 ## Funcionalidades
